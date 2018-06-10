@@ -1,6 +1,6 @@
 ## Introduction
 
-I am not good at making introductions...It is still in process
+I am not good at making introductions...It is still in process\n
 ~~My objective is to create a page like a blog where I can post~~
 
 ### Content
