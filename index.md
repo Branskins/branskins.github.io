@@ -1,12 +1,15 @@
-## Welcome to GitHub Pages
+## Introduction
 
-You can use the [editor on GitHub](https://github.com/Branskins/Branskins.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I am not good at making introductions...It is still in process
+My objective is to create a page like a blog where I can post
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Content
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+*Raspberry
+*Python
+*HTML/CSS
+*JavaScript
+*C++
 
 ```markdown
 Syntax highlighted code block
