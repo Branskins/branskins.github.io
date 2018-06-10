@@ -5,11 +5,11 @@ My objective is to create a page like a blog where I can post
 
 ### Content
 
-*Raspberry
-*Python
-*HTML/CSS
-*JavaScript
-*C++
+* Raspberry
+* Python
+* HTML/CSS
+* JavaScript
+* C++
 
 ```markdown
 Syntax highlighted code block
