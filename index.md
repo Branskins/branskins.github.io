@@ -13,4 +13,4 @@ I am not good at making introductions...It is still in process
 * C++
 
 ### Raspberry pi
-![Raspberry home files](31-05-2018/captura1.png)
+![Raspberry home files](graphics/31-05-2018/captura1.png)
