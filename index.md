@@ -13,4 +13,6 @@ I am not good at making introductions...It is still in process
 * C++
 
 ### Raspberry pi
-![Raspberry home files](graphics/31-05-2018/captura1.png)
+![Raspberry files](graphics/31-05-2018/captura1.png)
+![Desktop files](graphics/31-05-2018/captura2.png)
+![SCP mechanics](graphics/31-05-2018/captura3.png)
