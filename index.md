@@ -11,9 +11,3 @@ I am not good at making introductions...It is still in process
 * HTML/CSS
 * JavaScript
 * C++
-
-* Raspberry
-* Python
-* HTML/CSS
-* JavaScript
-* C++
