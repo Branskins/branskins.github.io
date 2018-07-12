@@ -27,8 +27,8 @@ I am not good at making introductions...It is still in process
 ![Raspberry working](graphics/03-06-2018/captura5.png)
 
 ## JavaScript using Node.js and Johnny-Five
-![Johnny-Five](graphics\11-07-2018\captura1.png)
-![IO plugin](graphics\11-07-2018\captura2.png)
-![Code](graphics\11-07-2018\captura3.png)
-![Raspberry working](graphics\11-07-2018\captura4.png)
-![Raspberry working](graphics\11-07-2018\captura5.png)
+![Johnny-Five](graphics/11-07-2018/captura1.png)
+![IO plugin](graphics/11-07-2018/captura2.png)
+![Code](graphics/11-07-2018/captura3.png)
+![Raspberry working](graphics/11-07-2018/captura4.png)
+![Raspberry working](graphics/11-07-2018/captura5.png)
