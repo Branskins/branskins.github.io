@@ -1,2 +1,0 @@
-scp = secure copy protocol
-aplicar en powershell

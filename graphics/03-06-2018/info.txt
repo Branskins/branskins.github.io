@@ -1,2 +1,0 @@
-installing and using the GPIO Zero library
-writing and running scripts from the raspberry(putty/nano) and windows(powershell/visual studio code)
