@@ -5,17 +5,35 @@ date: 2018-11-29 23:59:00 -0600
 permalink: /javascript/welcomenodejs
 ---
 
-<p>Using <strong>JavaScript</strong> as a server-side programming language</p>
+<p>Using <strong>JavaScript</strong> as a server-side programming language.</p>
+<p>
+  I was struggling with the Node basic concepts (HTTP, Stream, Buffer, Module) because I first started
+  with no background knowledge about server-side programming. That made me feel quite lost for a while
+  because I was just writing code in Node but I was not understanding at what I was doing.
+</p>
+<p>
+  At the end I realized that I was making a mistake, which is very common when starting something new.
+  Therefore, I decided to take a look for the core elements that involves server-side programming before
+  getting a mess in my head.
+</p>
+
+<p>Websites where I found inspiration</p>
+<ul>
+  <li>NodeSchool: <a href="https://nodeschool.io/index.html#workshopper-list">https://nodeschool.io/index.html#workshopper-list</a></li>
+  <li>Mozilla Developer Network community: <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side">https://developer.mozilla.org/en-US/docs/Learn/Server-side</a></li>
+</ul>
 
 {% highlight javascript %}
-var fs = require('fs');
-var file = process.argv[2];
+// An HTTP server that serves the sames text file for each request it receives.
 
-fs.readFile(file, function(err, contents) {
-  if(err) {
-    return console.log(err);
-  }
-  var lines = contents.toString().split('\n').length - 1;
-  console.log('Oficial solution: ',lines);
-});
+var http = require('http')
+var fs = require('fs')
+var port = Number(process.argv[2]) // port provided
+var folder = process.argv[3]; // location of the file
+
+var server = http.createServer(function(req, res) {
+  res.writeHead(200, {'content-type': 'text/plain'})
+  fs.createReadStream(folder).pipe(res)
+})
+server.listen(port)
 {% endhighlight %}
