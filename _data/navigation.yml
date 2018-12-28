@@ -6,3 +6,5 @@
   link: /
 - name: Test
   link: /jekyll/test
+- name: People
+  link: /people.html

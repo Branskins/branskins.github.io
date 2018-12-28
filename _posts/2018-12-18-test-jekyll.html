@@ -1,6 +1,7 @@
 ---
 layout: mylayout
 permalink: /jekyll/test
+author: branskins
 ---
 
 <h1>{{ "Hello World!" | downcase }}</h1>
@@ -10,3 +11,12 @@ permalink: /jekyll/test
 <ul>
   <li>"if page.url == "/"style="color: red;""</li>
 </ul>
+<span>Contribution by: {{ page.author }}</span>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    </li>
+  {% endfor %}
+</ul>
+<p>why people was added to the navigation bar of the theme</p>
