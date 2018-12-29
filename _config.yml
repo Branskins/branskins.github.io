@@ -33,6 +33,15 @@ plugins:
 # Author settings
 collections:
   authors:
+    output: true
+
+# Automatically set the layout
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
