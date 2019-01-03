@@ -2,3 +2,9 @@
 layout: default
 title: TODO
 ---
+
+<ul>
+  {% for item in site.data.todo %}
+  <li><input type="checkbox" name="" value="">{{ item }}</li>
+  {% endfor %}
+</ul>

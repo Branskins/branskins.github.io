@@ -1,2 +1,10 @@
-{ "description":"sidebar", "status":"feature" }
-{ "description":"about me", "status": "enhancement" }
+{
+  "about-me": {
+    "content": "About me",
+    "status": "enhancement"
+  },
+  "sidebar": {
+    "content": "Sidebar",
+    "status:": "feature"
+  }
+}
