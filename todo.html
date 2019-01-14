@@ -5,6 +5,7 @@ title: TODO
 
 <ul>
   {% for item in site.data.todo %}
-  <li><input type="checkbox" name="" value="">{{ item }}</li>
+  {% assign todo = item[1] %}
+  <li><input type="checkbox" name="" value="">{{ todo.content }}</li>
   {% endfor %}
 </ul>
