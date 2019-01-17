@@ -8,40 +8,34 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Theme Settings
+theme                    : "minimal-mistakes-jekyll"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Branotes
-email: andresje17@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Brnskins
-github_username:  Branskins
+title                    : "Branskins"
+name                     : "Andres Jimenez"
+description              : "My future amazing blogging website and portfolio"
+baseurl                  : "" # the subpath of your site, e.g. /blog
+url                      : "https://branskins.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/Brnskins"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Branskins"
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
-# Author settings
-collections:
-  authors:
-    output: true
-
-# Automatically set the layout
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
