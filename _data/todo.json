@@ -1,10 +1,17 @@
 {
   "about-me": {
     "content": "About me",
+    "completed": "X",
     "status": "enhancement"
+  },
+  "local-library": {
+    "content": "Local Library project",
+    "completed": " ",
+    "status:": "addition"
   },
   "sidebar": {
     "content": "Sidebar",
+    "completed": " ",
     "status:": "feature"
   }
 }

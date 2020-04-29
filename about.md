@@ -4,15 +4,17 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Welcome! :eyes:
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I am Andrés Jiménez, a system engineering student. This is my personal site
+where I would like to share my experiences, difficulties and learnings when
+I build and use software.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+My plan is to show the process of my personal projects and the future ideas
+that I have in mind.
 
+Feel free to make a Pull Request telling me that you were here, I would
+appreciate your comments.
 
-[jekyll-organization]: https://github.com/jekyll
+You can find the source code of this blog at GitHub:
+[branskins.github.io](https://github.com/Branskins/branskins.github.io)

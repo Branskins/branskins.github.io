@@ -1,6 +1,6 @@
 ---
 nickname: Branskins
-name: Andres Jimenez
+name: Andrés Jiménez
 position: Blog Owner
 ---
-I have been writing code for 3 years
+I have been writing code for 4 years

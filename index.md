@@ -1,4 +1,4 @@
 ---
 layout: home
-title: My Bloggging Website
+title: My Blogging Website
 ---
