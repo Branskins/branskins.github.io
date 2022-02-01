@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ScrollToTop from '../../scroll-to-top'
 import '../work.css'
 import w1 from '../../../assets/w1.png'
 
@@ -6,6 +7,7 @@ export default class DesigningDashboards extends Component {
   render() {
     return (
       <div className="wrapper">
+        <ScrollToTop />
         <h1 className="work-title">Designing Dashboards</h1>
         <div>
           <span className="badge">2020</span>
