@@ -8,8 +8,11 @@ export default class Land extends Component {
       <div className="land wrapper">
         <div className="land-container">
           <div className="land-info">
-            <h1>Hi, I am Branskins, Pokémon Master</h1>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          <h1>Hi, I am Branskins, <br></br>a Data Enthusiast</h1>
+            <p>You can call me Andrés as well, currently working as a data engineer.
+              I spend most of my time handling big (or not) datasets, 
+              and I truly enjoy getting insights from real-world data.
+            </p>
             <button className="cv-button">Download Resume</button>
           </div>
         </div>
