@@ -13,40 +13,15 @@ export default class FeatureWork extends Component {
         <div className="feature-container">
           <img className="feature-picture" src={t1} alt="" />
           <div className="feature-content">
-            <h2><Link to='/work/designingdashboards'>Designing Dashboards</Link></h2>
+            <h2><Link to='/work/designingdashboards'>Classifying Legendary Pokemon</Link></h2>
             <div>
-              <span className="badge">2020</span>
-              <span className="topic">Dashboard</span>
+              <span className="badge">2022</span>
+              <span className="topic">Clustering</span>
             </div>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <p>What does it make a Pokemon legendary? Pokemon have stats that can used to determined if a Pokemon is strong enough to be considered Legendary.</p>
           </div>
         </div>
         {/* First container */}
-        <div className="feature-container">
-          <img className="feature-picture" src={t2} alt="" />
-          <div className="feature-content">
-            <h2><Link to='/work/vibrantportraits'>Vibrant Portraits of 2020</Link></h2>
-            <div>
-              <span className="badge">2018</span>
-              <span className="topic">Illustration</span>
-            </div>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-          </div>
-        </div>
-        {/* Second container */}
-        <div className="feature-container">
-          <img className="feature-picture" src={t3} alt="" />
-          <div className="feature-content">
-            <h2><Link to='/work/daysmalayalam'>36 Days of Malayalam type</Link>
-            </h2>
-            <div>
-              <span className="badge">2020</span>
-              <span className="topic">Typography</span>
-            </div>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-          </div>
-        </div>
-        {/* Third container */}
       </div>
     )
   }
