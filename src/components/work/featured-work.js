@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import './work.css'
-import t1 from '../../assets/t1.png'
-import t2 from '../../assets/t2.png'
-import t3 from '../../assets/t3.png'
+import w1 from '../../assets/w1.png'
 
 export default class FeatureWork extends Component {
   render() {
@@ -11,7 +9,7 @@ export default class FeatureWork extends Component {
       <div className="wrapper">
         <h4>Featured works</h4>
         <div className="feature-container">
-          <img className="feature-picture" src={t1} alt="" />
+          <div className="feature-picture-card"><img className="feature-picture" src={w1} alt="" /></div>
           <div className="feature-content">
             <h2><Link to='/work/designingdashboards'>Classifying Legendary Pokemon</Link></h2>
             <div>
