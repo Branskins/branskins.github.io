@@ -8,13 +8,15 @@ export default class DesigningDashboards extends Component {
     return (
       <div className="wrapper">
         <ScrollToTop />
-        <h1 className="work-title">Designing Dashboards</h1>
+        <h1 className="work-title">Classifying Legendary Pokemon</h1>
         <div>
           <span className="badge">2020</span>
           <span className="topic">Dashboard</span>
         </div>
         <p>
-          Vivamus porttitor venenatis porttitor. Maecenas ullamcorper vel turpis ut tincidunt. Mauris ultricies, lacus a imperdiet accumsan, dui magna accumsan ex, nec sodales mi tortor eu ligula. Morbi dolor justo, dignissim eu neque at, posuere consequat leo. Proin dignissim augue ipsum, in hendrerit arcu auctor consequat. Sed non nisl eu est sollicitudin feugiat. Nullam quam ligula, laoreet mollis hendrerit vel, gravida quis arcu. In nunc odio, condimentum sit amet metus efficitur, mollis dictum ante. Suspendisse interdum velit id metus iaculis luctus.
+          The idea behind this is to build some sort of classifier of legendary Pokemon. 
+          Since the most complete dataset of Pokemon doesn't tell if a Pokemon is legendary
+          or not, I deciced to make a clustering program instead
         </p>
         <img className="work-picture" src={w1} alt="" />
         <p>
