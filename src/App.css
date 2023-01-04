@@ -1,3 +1,23 @@
 /* .App > * {
   padding-bottom: 20px;
 } */
+
+.App {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 768px;
+}
+
+@media (max-width: 480px) {
+  .App {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .App h4 {
+    font-size: 18px;
+    text-align: center;
+  }
+}
