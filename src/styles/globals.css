@@ -105,3 +105,12 @@ a {
     color-scheme: dark;
   }
 }
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  max-width: 768px;
+}
