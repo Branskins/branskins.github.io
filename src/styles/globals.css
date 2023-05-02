@@ -87,9 +87,10 @@ body {
 
 h1 {
   color: #21243D;
-  font-size: 44px;
-  font-weight: bold;
-  line-height: 60px;
+  font-size: 40px;
+  line-height: 48px;
+  margin-top: 0px;
+  margin-bottom: 16px;
 }
 
 h2 {
@@ -123,7 +124,7 @@ p {
   color: #21243D;
   font-size: 16px;
   line-height: 24px;
-  margin-top: 16px;
+  margin-top: 0px;
   margin-bottom: 16px;
 }
 
@@ -155,4 +156,8 @@ a {
   padding-right: 30px;
   padding-bottom: 30px;
   max-width: 768px;
+}
+
+.annotation-wrapper {
+  margin-bottom: 16px;
 }

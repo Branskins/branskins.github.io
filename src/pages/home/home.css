@@ -4,6 +4,14 @@
 	padding-bottom: 60px;
 }
 
+.landing-title {
+  margin-bottom: 24px;
+}
+
+.landing-intro {
+	margin-bottom: 24px;
+}
+
 .cv-button {
 	color: #FFFFFF;
 	background-color: #FF6464;
