@@ -161,3 +161,14 @@ a {
 .annotation-wrapper {
   margin-bottom: 16px;
 }
+
+.navbar-container ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.navbar-container li {
+  padding-top: 24px;
+  padding-right: 24px;
+}
