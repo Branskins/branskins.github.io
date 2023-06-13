@@ -166,9 +166,9 @@ a {
   display: flex;
   justify-content: flex-end;
   list-style: none;
+  padding: 24px 0px;
 }
 
 .navbar-container li {
-  padding-top: 24px;
   padding-right: 24px;
 }
