@@ -6,21 +6,10 @@ picture: 'hpp1'
 description: 'What does it make a Pokemon legendary? Pokemon have stats that can used to determined if a Pokemon is strong enough to be considered Legendary.'
 ---
 
-<div className="wrapper">
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { tomorrow } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
-# {title}
-
-<span className="badge">{date}</span>
-<span className="topic">{topic}</span>
-
-The idea behind this is to build some sort of classifier of legendary Pokemon. Since the most complete dataset of Pokemon doesn't tell if a Pokemon is legendary or not, I deciced to make a clustering program instead, especifically for this I chose a hierarchical clustering algorithm. At the end, I ended up trying to see if there is a remarkable way to spot if a normal pokemon could be considered legendary.
-
-To start, it's necessary to define the features to train the hierarchical clustering, so for this I chose the basic Pokemon stats. The process to come up with these stats can be as complex as you want, to put it simple you have to rely on formulas and randomness.
-
-For example, this piece of code shows a way to represent Pokemon where the IV and EV are 0, and the Pokemon level is 50.
-
-``` python
-def calculate_stats(pokemon):
+export const codeString = `def calculate_stats(pokemon):
   pokemon_stats = pokemon['stats']
   total_stats = {}
   iv = ev = 0
@@ -37,7 +26,24 @@ def calculate_stats(pokemon):
       else:
         total_stats[stat_name] = other_stat(stat_value, iv, ev, lvl, nature)
   return total_stats
-```
+`
+
+<div className="wrapper">
+
+# {title}
+
+<span className="badge">{date}</span>
+<span className="topic">{topic}</span>
+
+The idea behind this is to build some sort of classifier of legendary Pokemon. Since the most complete dataset of Pokemon doesn't tell if a Pokemon is legendary or not, I deciced to make a clustering program instead, especifically for this I chose a hierarchical clustering algorithm. At the end, I ended up trying to see if there is a remarkable way to spot if a normal pokemon could be considered legendary.
+
+To start, it's necessary to define the features to train the hierarchical clustering, so for this I chose the basic Pokemon stats. The process to come up with these stats can be as complex as you want, to put it simple you have to rely on formulas and randomness.
+
+For example, this piece of code shows a way to represent Pokemon where the IV and EV are 0, and the Pokemon level is 50.
+
+<SyntaxHighlighter language="python" style={tomorrow}>
+  {codeString}
+</SyntaxHighlighter>
 
 After creating a bunch of Pokemon (around 30k), I discarded some kind of special Pokemon forms. Why? When splitting the Pokemon in two groups, strong and weak; almost all of the Pokemon were classified only in one group.
 
