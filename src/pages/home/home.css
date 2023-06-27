@@ -1,0 +1,97 @@
+.land {
+	display: flex;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.landing-title {
+  margin-bottom: 24px;
+}
+
+.landing-intro {
+	margin-bottom: 16px;
+	margin-top: 0px;
+}
+
+.cv-button {
+	color: #FFFFFF;
+	background-color: #FF6464;
+	font-size: 20px;
+	border: 1px solid #FF6464;
+	outline: none;
+	border-radius: 2px;
+	padding: 10px 20px;
+}
+
+.cv-button:hover {
+	background-color: rgba(204, 51, 51, 0.75);
+	border: 1px solid transparent
+}
+
+.land-container {
+	width: 55%;
+}
+
+.land-picture {
+	width: 45%;
+}
+
+.land-info {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+}
+
+.picture {
+	display: block;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 2px solid #E8E8E8;
+  padding-bottom: 16px;
+  margin-bottom: 32px;
+}
+
+.feature-picture {
+  border-radius: 6px;
+  display: block;
+  width: 100%;
+}
+
+.feature-picture-card {
+  border: 1px solid #E8E8E8;
+  border-radius: 6px;
+  max-width: 30%;
+}
+
+.feature-content {
+  max-width: 66%;
+}
+
+.feature-title {
+	font-size: 24px;
+	margin-top: 0px;
+	margin-bottom: 24px;
+}
+
+.badge {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #142850;
+  border-radius: 16px;
+  padding: 2px 8px;
+  margin-right: 16px;
+}
+
+.topic {
+  color: #8695A4;
+  font-size: 20px;
+}
