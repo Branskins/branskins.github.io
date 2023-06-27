@@ -6,7 +6,7 @@ export default function FeatureProjectsPage() {
       <div className="wrapper">
         <p className="feature-title">Feature projects</p>
         <div className="feature-container">
-          <div className="feature-picture-card"><img className="feature-picture" src="images/profile.jpg" alt="" /></div>
+          <div className="feature-picture-card"><img className="feature-picture" src="images/hpp1.png" alt="" /></div>
           <div className="feature-content">
             <h2><Link href='/projects/hierarchical-pokemon'>Classifying Legendary Pokemon</Link></h2>
             <div className="annotation-wrapper">
