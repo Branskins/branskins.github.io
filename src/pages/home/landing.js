@@ -9,7 +9,7 @@ export default function LandingPage() {
               I spend most of my time handling big (or not) datasets,
               and I truly enjoy getting insights from real-world data.
             </p>
-            <button className="cv-button">Download Resume</button>
+            {/* <button className="cv-button">Download Resume</button> */}
           </div>
         </div>
         <div className="land-picture">
