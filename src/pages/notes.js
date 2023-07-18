@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { getSortedNotesData } from '../lib/notes'
+import { formatDate } from '../lib/date'
 
 export default function NotesPages({ allNotesData }) {
   return (
@@ -12,7 +13,7 @@ export default function NotesPages({ allNotesData }) {
             <div className="feature-content">
               <h2><Link href={`/notes/${id}`}>{title}</Link></h2>
               <div className="annotation-wrapper">
-                <span className="badge">{date}</span>
+                <span className="badge">{formatDate(date)}</span>
                 <span className="topic">{topic}</span>
               </div>
             </div>

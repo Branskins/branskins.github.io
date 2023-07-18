@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { getSortedProjectsData } from '../lib/projects'
+import { formatDate } from '../lib/date'
 
 export default function ProjectsPage({ allProjectsData }) {
   return (
@@ -15,7 +16,7 @@ export default function ProjectsPage({ allProjectsData }) {
             <div className="feature-content">
               <h2><Link href={`/projects/${id}`}>{title}</Link></h2>
               <div className="annotation-wrapper">
-                <span className="badge">{date}</span>
+                <span className="badge">{formatDate(date)}</span>
                 <span className="topic">{topic}</span>
               </div>
               <p>{description}</p>
