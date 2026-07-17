@@ -1,0 +1,16 @@
+.header {
+  padding: var(--space-16) 0 var(--space-8);
+}
+
+.title {
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-bold);
+  margin: var(--space-2) 0 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-6);
+  padding-bottom: var(--space-16);
+}

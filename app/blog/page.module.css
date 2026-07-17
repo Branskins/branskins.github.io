@@ -1,0 +1,24 @@
+.header {
+  padding: var(--space-16) 0 var(--space-8);
+}
+
+.title {
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-bold);
+  margin: var(--space-2) 0 0;
+}
+
+.empty {
+  border: var(--border-hairline) dashed var(--border-default);
+  border-radius: var(--radius-xs);
+  padding: var(--space-16) var(--space-6);
+  text-align: center;
+  color: var(--text-muted);
+  margin-bottom: var(--space-16);
+}
+
+.emptyTitle {
+  font-size: var(--fs-body-lg);
+  color: var(--text-secondary);
+  margin: var(--space-3) 0 0;
+}
